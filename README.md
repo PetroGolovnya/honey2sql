@@ -4,4 +4,6 @@
 
 Для сборки нужна .NET сборка библиотеки Getopt - https://www.nuget.org/packages/Gnu.Getopt/
 
+Список тэгов читается из текстового файла.
+
 В Visul Studio нужно настроить свойства проекта в соответствии с главой "Setting up Microsoft Visual Studio for Network API applications" руководства Application Development Guide EP-DSXX16.
