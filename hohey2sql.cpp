@@ -149,12 +149,12 @@ int main(array<System::String ^> ^args)
 		for (int i = 0; i < num_hists; i++)
 		{
 			status = hsc_bad_value(gethstpar_date_data2[0].hist_values[i]);
-      Int16 quality = status ? 0 : 192;//if 1 - BAD
+                        Int16 quality = status ? 0 : 192;//if 1 - BAD
 
 			row = dt->NewRow();
 			row["date"] = start_date.AddHours(-i);
 			row["tag"] = point;
-      row["value"] = gethstpar_date_data2[0].hist_values[i];
+                        row["value"] = gethstpar_date_data2[0].hist_values[i];
 			row["quality"] = quality;
 			dt->Rows->Add(row);
 /*			printf("VALUE - %d - %d - %.2f - %.2f - %d\n",
