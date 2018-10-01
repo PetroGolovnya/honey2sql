@@ -265,7 +265,7 @@ int get_hist_values(char *hostname, int num_hist_data, rgethstpar_date_data_str_
 
 void dispaly_usage()
 {	
-	Console::WriteLine(L"»спользование: honey2sql -s SRV7 -n 25 [-d \"06.06.2017 04:00\"]\n" +
+	Console::WriteLine(L"»спользование: honey2sql -s SRV7 -n 25 [-d \"06.06.2017 4:00\"]\n" +
 	  "-h помощь\n" +
       "-s SRV7  сервер\n" +
       "-n 25 число записей\n" +
