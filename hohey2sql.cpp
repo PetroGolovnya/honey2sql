@@ -35,7 +35,7 @@ int main(array<System::String ^> ^args)
             	break;          				
             case 'd':
 				arg = g->Optarg;
-				start_date = DateTime::ParseExact(arg->ToString(), "dd.MM.yyyy hh:mm", CultureInfo::InvariantCulture);            			
+				start_date = DateTime::ParseExact(arg->ToString(), "dd.MM.yyyy H:mm", CultureInfo::InvariantCulture);            			
             	break;
 			case 'n':
 				arg = g->Optarg;
