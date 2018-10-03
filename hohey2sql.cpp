@@ -112,7 +112,7 @@ int main(array<System::String ^> ^args)
 		
 		if (status != 0)
 		{			
-			Console::WriteLine("Point_number resolution error 0x" + p_points[0].fStatus.ToString("X4") + " " + "at" + " " + point);						
+			Console::WriteLine("Point_number resolution error 0x" + status.ToString("X4") + " " + "at" + " " + point);						
 			continue;
 		}
 
@@ -124,7 +124,7 @@ int main(array<System::String ^> ^args)
 		
 		if (status != 0)
 		{
-			Console::WriteLine("Param_number resolution error 0x" + p_params[0].fStatus.ToString("X4") + " " + "at" + " " + point + " " + "and" + " " + param);			
+			Console::WriteLine("Param_number resolution error 0x" + status.ToString("X4") + " " + "at" + " " + point + " " + "and" + " " + param);			
 			continue;
 		}
 
